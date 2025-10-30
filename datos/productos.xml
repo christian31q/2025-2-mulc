@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <categoria>
+        <nombre>Cobijas</nombre>
+        <producto>
+            <nombre>Cobija de tigre</nombre>
+            <precio>100000</precio>
+            <ref>p001</ref>
+            <imagen>imagen/foto01.jpg</imagen>
+        </producto>
+        <producto>
+            <nombre>Cobija de James</nombre>
+            <precio>300000</precio>
+            <ref>p002</ref>
+            <imagen>imagen/foto01.jpg</imagen>
+        </producto>
+    </categoria>
+
+    <categoria>
+        <nombre>Almohadas</nombre>
+        <producto>
+            <nombre>Almohada de tigre</nombre>
+            <precio>100000</precio>
+            <ref>p003</ref>
+            <imagen>imagen/foto01.jpg</imagen>
+        </producto>
+        <producto>
+            <nombre>Almohada de James</nombre>
+            <precio>300000</precio>
+            <ref>p004</ref>
+            <imagen>imagen/foto01.jpg</imagen>
+        </producto>
+    </categoria>
+</root>

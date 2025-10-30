@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/datos.js" defer></script>
 </head>
+
 <body>
-    <h1>Hola mundo</h1>
+   <form id="formulario" enctype="multipart/form-data">
+    <label for="producto">Producto:</label>
+    <input type="text" name="producto" id="producto">
+    <label for="categoria">Categoría:</label>
+    <select name="categoria" id="categoria">
+        <option value="cobijas">Cobijas</option>
+        <option value="almohadas">Almohadas</option>
+    </select>
+    <label for="precio">Precio:</label>
+    <input type="number" name="precio" id="precio">
+    <label for="referencia">Referencia:</label>
+    <input type="text" name="referencia" id="referencia">
+    <label for="imagen">Imagen:</label>
+    <input type="file" name="imagen" id="imagen">
+    <figure><img id="preview" src="" alt=""></figure>
+    <button type="submit">Enviar</button>
+   </form>
 </body>
+
 </html>

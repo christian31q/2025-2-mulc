@@ -1,0 +1,38 @@
+{
+    "categoria": [
+        {
+            "nombre": "Cobijas",
+            "producto": [
+                {
+                    "nombre": "Cobija de tigre",
+                    "precio": "100000",
+                    "ref": "p001",
+                    "imagen": "imagen/foto01.jpg"
+                },
+                {
+                    "nombre": "Cobija de James",
+                    "precio": "300000",
+                    "ref": "p002",
+                    "imagen": "imagen/foto01.jpg"
+                }
+            ]
+        },
+        {
+            "nombre": "Almohadas",
+            "producto": [
+                {
+                    "nombre": "Almohada de tigre",
+                    "precio": "100000",
+                    "ref": "p003",
+                    "imagen": "imagen/foto01.jpg"
+                },
+                {
+                    "nombre": "Almohada de James",
+                    "precio": "300000",
+                    "ref": "p004",
+                    "imagen": "imagen/foto01.jpg"
+                }
+            ]
+        }
+    ]
+}

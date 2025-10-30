@@ -1,0 +1,72 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.root{
+    background: url("../img/afro1.png");
+    background-repeat: no-repeat;
+    background-size:initial;
+    width: 960px; 
+    height: 1155px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    width: 850px;
+    height: 41px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+img {
+    max-width: 100%;
+}
+
+header figure {
+    width: 67px;
+    height: 33px;
+}
+
+header nav ul {
+    display: inline-flex;
+    padding: 15px 0;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+header nav ul li {
+    color: #B2A89D;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10.667px;
+    /* 53.333% */
+}
+
+/**/
+
+.logo1 {
+    margin-top: 75px;
+    width: 593px;
+    height: 301px;
+    aspect-ratio: 593/301;
+   margin-left: auto;
+   margin-right: auto;
+}
+#formulario {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+figure{
+    width: 100px;
+}
